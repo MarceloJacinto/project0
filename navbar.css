@@ -2,6 +2,7 @@
 .topnav {
     background-color: rgb(46, 50, 51);
     overflow: hidden;
+    border-radius: 25px;
 }
 
 /* Style the links inside the navigation bar */
@@ -23,4 +24,9 @@ a:hover {
 /* Add a color to the active/current link */
 .topnav a.active {
     background-color: rgb(125, 163, 199);
+}
+
+/*Set the body font*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }

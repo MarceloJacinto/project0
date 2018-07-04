@@ -1,0 +1,30 @@
+/*Set the title box*/
+#big-title-div {
+    /*background-color: lightgrey;*/
+    width: auto;
+    /*border: 5px solid black;*/
+    padding: 100px;
+    height: 500px;
+    margin: auto;
+}
+
+/*Set the title properties*/
+#big-title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+/*Set the background gradient*/
+.container {
+    background: #466368;
+    background: radial-gradient(#648880, #293f50);
+}
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
