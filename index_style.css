@@ -1,25 +1,27 @@
-/*Set the title box*/
-#big-title-div {
-    /*background-color: lightgrey;*/
-    width: auto;
-    /*border: 5px solid black;*/
-    padding: 100px;
-    height: 500px;
-    margin: auto;
+html, body {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 28px;
+    margin:0px;
+  }
+
+
+.ParallaxContainer {
+    background-color: aliceblue;
+    background-image: url("Images/background2.jpg");
+
+    min-height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% auto;
+    /*position: relative;*/
+    height: 600px;
 }
 
-/*Set the title properties*/
-#big-title {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-}
 
-/*Set the background gradient*/
-.container {
-    background: #466368;
-    background: radial-gradient(#648880, #293f50);
-}
 
 .profile-pic {
     display: block;
@@ -28,3 +30,10 @@
     border-radius: 50%;
 }
 
+.ParallaxContent {
+    font-family: "Roboto Slab", serif;
+    font-size: 60px;
+    top: 30%;
+    color: black;
+    text-align: center;
+  }
