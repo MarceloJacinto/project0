@@ -1,0 +1,13 @@
+body {
+  margin: 0px;
+  width: 100%;
+}
+
+.text-block h1 {
+  padding: 3%;
+}
+.text-block p {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=shared.css.map */

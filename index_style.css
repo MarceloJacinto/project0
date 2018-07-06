@@ -1,43 +1,37 @@
-body {
-    margin:0px;
-}
-
 /*Set the title box*/
 #big-title-div {
-    /*background-color: lightgrey;*/
+    transform: translateY(50px);
     width: auto;
     border: 0px solid black;
-    padding: 100px;
-    height: 500px;
+    padding: auto;
+    height: auto;
     margin: auto;
 }
 
 /*Set the title properties*/
 #big-title {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
     color: white;
     text-shadow: 3px 2px rgb(51, 51, 51);
 }
 
 #big-subtitle {
     text-align: center;
-    font-family: Geneva, Tahoma, sans-serif;
+    font-family: sans-serif, Geneva, Tahoma;
     font-style: oblique;
     color: white;
 }
 
 /*Set the background gradient*/
 body {
-    background: #466368;
-    background: radial-gradient(#648880, #293f50);
-    width: 100%;
+    background: radial-gradient(rgb(56, 71, 99), rgb(90, 176, 233));
 }
 
+/*Set the styling for the profile picture*/
 .profile-pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
 }
-
