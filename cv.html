@@ -4,7 +4,11 @@
         <title>Marcelo Jacinto</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/about.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="css/cv.css">
         <link rel="stylesheet" href="css/shared.css">
     </head>
     <body>
@@ -28,55 +32,132 @@
         <!--Setting up a block of content-->
         <div class="text-block container">
             <h1>C.V</h1>
-            <h2>Informação Pessoal</h2>
-            <p>Antes do 12º ano pensava em seguir uma carreira em medicina ou algo semelhante, mas durante esse ano participei numa displina extra-curricular
-                em que nos era permitido fazer tudo e mais alguma coisa. Eu e uns amigos meus tivemos a ideia de construir uma replica de uma máquina de jogos arcade!
-                Durante esse ano liderei o projeto, o que se demonstrou ser um pouco desafiante. Primeiro tivemos de falar com os professores para que podesse ser aprovado na escola
-                a compra de madeiras para fazer a máquina. Tivemos a sorte da nossa escola ter professores muito porreiros que nos facilitaram esse trabalho. 
-                Após a contrução da máquina, já quase no final do ano letivo tomei a decisão de que engenharia eletrotécnica era mesmo o que queria fazer! A partir daí foi só seguir
-                em frente!
+            <div class="media">
+                    <div class="media-body">
+                        <img src="Images/full_body.png" alt="Full body image">
+                        <h5 class="mt-0 mb-1">Informação Pessoal</h5>
+                        <h6><strong>Nome Completo:</strong> Marcelo Fialho Jacinto</h6>
+                        <h6><strong>Sexo:</strong> Masculino</h6>
+                        <h6><strong>Data nascimento:</strong> 23/11/1998</h6>
+                        <h6><strong>Nacionalidade:</strong> Portuguesa</h6>
+                        <!--Lefting spacing-->
+                        <h1></h1>
 
-            </p>
-            <p>De volta ao presente...</p>
-            <p>Sinto que neste momento já adquiri alguns conhecimentos que me permitem ter um entendimento bastante alargado
-                de como funcionam circuitos elétricos básicos que envolvam desde díodos e resistências a MOS-FET.Mas embora esteja num curso
-                de eletrónica, a minha área de interesse situa-se mais em <kbd>Computadores</kbd> e <kbd>Sistemas de Decisão e Controlo</kbd>.
-            </p>
+                        <h5 class="mt-0 mb-1">Idiomas:</h5>
+                        <h6><strong>Língua Materna:</strong> Português</h6>
+                        <h6><strong>Nível C1:</strong> Inglês <kbd>com diploma CAE</kbd></h6>
+                        <h6><strong>Nível A1:</strong> Françês (entendimento básico)</h6>
+                        <!--Lefting spacing-->
+                        <h1></h1>
 
-            <p>Atualmente a minha média ronda os 16.3 valores e as cadeiras em que mais me destaquei ao longo destes 2 anos foram:</p>
-            <div class="container">
-                    <div class="row">
-                        <!-- div that takes 3 columns of space on a large screen out of the 12 avaiable-->
-                        <!-- div that takes 6 columns of space on a small screen-->
-                        <div class="col-lg-3 col-sm-12">
-                            <ul>
-                                <li>Sistemas Digitais - 17</li>
-                                <li>Sinais e Sistemas - 17</li>
-                            </ul>
+                        <h5 class="mt-0 mb-1">Contactos</h5>
+                        <h6><strong>Email:</strong> marcelo.jacinto@tecnico.ulisboa.pt</h6>
+                        <h6><strong>Linkedin:</strong> https://www.linkedin.com/in/marcelo-jacinto/</h6>
+                        <h6><strong>Github:</strong> https://github.com/MarceloJacinto</h6>
+                        <h6><strong>Skype:</strong> marcelojacinto1</h6>
+                        <!--Lefting spacing-->
+                        <h1></h1>                      
+
+                        <h5 class="mt-0 mb-1">Educação e Formação <kbd>formal</kbd></h5>
+                        <div class="grid">
+                            <div class="grid-item">09/2016 - Presente</div>
+                            <div class="grid-item">
+                                <p class="table-title">Mestrado Integrado em Engenharia Eletrotécnica e de Computadores</p>
+                                <p>Instituto Superior Técnico, Lisboa (Portugal)<p>
+                                <p>Média Atual: 16,30</p>
+                                <p>Diploma mérito (ano letivo 2016-2017)</p>
+                                <p><kbd>Principais Competências:</kbd></p>
+                                <ul>
+                                    <li>Sistemas Digitais - 17</li>
+                                    <li>Arquitetura de Computadores - 18</li>
+                                    <li>Programação - 17</li>
+                                    <li>Algoritmos e Estruturas de Dados - 17</li>
+                                    <li>Eletromagnetismo e Ótica - 17</li>
+                                    <li>Fundamentos da Eletrónica - 18</li>
+                                    <li>Sinais e Sistemas - 17</li>
+                                    <li>Probabilidades e estatística - 18</li>
+                                </ul>
+                            </div>
+                            <div class="grid-item">09/2013 – 06/2016</div>
+                            <div class="grid-item">
+                                <p class="table-title">Ensino Secundário</p>
+                                <p>Escola Secundária Raul Proença, Caldas da Rainha (Portugal)<p>
+                                <ul>
+                                    <li>Curso de Ciências e Tecnologias</li>
+                                    <li>Construção de uma <kbd>máquina de jogos Arcade</kbd> para a escola</li>
+                                    <li>Integração na equipa de volleyball da escola</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-lg-3 col-sm-12">
-                            <ul>
-                                <li>Arquitetura de Computadores - 18</li>
-                                <li>Fundamentos da Eletrónica - 18</li>
-                            </ul>
+                        <!--Lefting spacing-->
+                        <h1></h1>     
+
+                        <h5 class="mt-0 mb-1">Experiência Profissional</h5>
+                        <div class="grid">
+                                <div class="grid-item">
+                                    <ul>
+                                        <li>06/2018 - 08/2018</li>
+                                        <li>07/2017 - 08/2017</li>
+                                        <li>22 e 23 de Dezembro de 2017 e 2018</li>
+                                    </ul>
+                                </div>
+                                <div class="grid-item">
+                                    <p class="table-title">Empregado de Balcão</p>
+                                    <p>Pastelaria Dona Leonor, Caldas da Rainha (Portugal)<p>
+                                    <p><kbd>Principais funções:</kbd></p>
+                                    <ul>
+                                        <li>Atendimento ao público</li>
+                                        <li>Organização de encomendas</li>
+                                        <li>Limpeza</li>
+                                    </ul>
+                                </div>
+
+                                <div class="grid-item">08/2017 – 09/2017</div>
+                                <div class="grid-item">
+                                    <p class="table-title">Apanha da Fruta</p>
+                                </div>
                         </div>
-                        <div class="col-lg-3 col-sm-12">
-                            <ul>
-                                <li>Programação - 17</li>
-                                <li>Probabilidades e estatística - 18</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-sm-12">
-                            <ul>
-                                <li>Eletromagnetismo e Ótica - 17</li>
-                            </ul>
-                        </div>
+                        <!--Lefting spacing-->
+                        <h1></h1>
+
+                        <h5 class="mt-0 mb-1">Competências Digitais</h5>
+                        <h6><strong>Programação:</strong></h6>
+                        <ul>
+                            <li>C
+                                <ul>Projetos:
+                                    <li>2048 (Jogo 1024 recorrendo a SDL)</li>
+                                    <li>BikeStation (Programa de estatística de serviço estilo GIRA lisboa)</li>
+                                    <li>Binary Puzzle Solver</li>
+                                </ul>
+                            <li>Assembly</li>
+                                <ul>Projeto:
+                                    <li>Mastermind</li>
+                                </ul>
+                            <li>MatLab</li>
+                                <ul>Projeto:
+                                    <li>Implementação do método quase-Newton generalizado</li>
+                                    <li>Aproximação de integrais pelo método de Romberg</li>
+                                    <li>Implementação do método de Heun</li>
+                                </ul>
+                            </li>
+                            <li>HTML, CSS, Javascript incluindo <kbd>BOOTSTRAP</kbd></li>
+                                <ul>Projeto:
+                                    <li>Este site!</li>
+                                </ul>
+                            </li>
+                            <li>Python</li>
+                                <ul>Projeto:
+                                    <li>Este site!</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h6><strong>Sexo:</strong> Masculino</h6>
+                        <!--Lefting spacing-->
+                        <h1></h1>
+                        
+
                     </div>
-                </div>
-                <p>Nos meus tempos livres gosto de explorar mais em detalhe certos tópicos que até agora ainda não foram explorados
-                        em nenhumas das cadeiras a que assisti. Enter eles programação em <kbd>python</kbd> não só para <kbd>Data Science</kbd>, reccorendo a módulos como
-                        <kbd>numpy</kbd>, <kbd>pandas</kbd>, <kbd>matplotlib</kbd> e <kbd>seaborn</kbd> como para o desenvolvimento de <kbd>Web Apps</kbd> recorrendo a <kbd>Flask</kbd> e <kbd>Django</kbd>.
-                </p>
-        </div> 
+            </div> 
+        </div>
     </body>
 </html>

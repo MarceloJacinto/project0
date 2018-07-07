@@ -1,0 +1,40 @@
+img {
+    width: 15%;
+    float: right;
+}
+
+h5 {
+    color: red;
+}
+
+p, h6, li, .table-title {
+    text-align: left;
+}
+
+p, li {
+    font-size: 15px;
+    padding: 0px;
+}
+
+.table-title {
+    font-size: 20px;
+}
+
+
+
+
+
+.grid {
+    /*background-color: rgb(rgb(124, 110, 110), green, blue);*/
+    display: grid;
+    padding-left: 0;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: 30% auto;
+}
+.grid-item {
+    background-color: whitesmoke;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
